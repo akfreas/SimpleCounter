@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CounterViewController" customModule="SimpleCounterFeature" customModuleProvider="target">
+            <connections>
+                <outlet property="counterButton" destination="PiY-Oe-I4h" id="6c9-pr-E4T"/>
+                <outlet property="counterLabel" destination="4fj-Kl-xpO" id="TwP-NC-YPR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiY-Oe-I4h">
+                    <rect key="frame" x="143" y="368" width="88" height="35"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                    <state key="normal" title="Count +1"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fj-Kl-xpO">
+                    <rect key="frame" x="136" y="153" width="92.5" height="42"/>
+                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PiY-Oe-I4h" firstAttribute="firstBaseline" secondItem="4fj-Kl-xpO" secondAttribute="baseline" constant="207.5" id="2iv-re-Fud"/>
+                <constraint firstItem="PiY-Oe-I4h" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="EMA-hz-Odq"/>
+                <constraint firstItem="4fj-Kl-xpO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="133" id="StE-ri-YHp"/>
+                <constraint firstItem="4fj-Kl-xpO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="136" id="lbi-n0-pBP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PiY-Oe-I4h" secondAttribute="bottom" constant="264" id="ovC-tP-OzM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>
