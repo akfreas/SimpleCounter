@@ -11,3 +11,7 @@ target 'SimpleCounterFeature' do
     app_pods
 end
 
+target 'SimpleCounterApp' do
+    project './SimpleCounterApp/SimpleCounterApp.xcodeproj'
+    app_pods
+end
