@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		986A176476A32A67BFF4895C /* Pods_SimpleCounterFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E354C4F38DCAC9B4D2CC7E /* Pods_SimpleCounterFeature.framework */; };
 		C225C5A1225BC8340093F8AE /* SimpleCounterFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = C225C59F225BC8340093F8AE /* SimpleCounterFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B73721225BCAA00006D1B8 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B73720225BCAA00006D1B8 /* CounterViewController.swift */; };
 		C2B73724225BCBC00006D1B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B73723225BCBC00006D1B8 /* UIKit.framework */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66724CDF3A85BA485D5E4E41 /* Pods-SimpleCounterFeature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCounterFeature.release.xcconfig"; path = "Target Support Files/Pods-SimpleCounterFeature/Pods-SimpleCounterFeature.release.xcconfig"; sourceTree = "<group>"; };
+		AAA0D540509D1D5CB4143CF3 /* Pods-SimpleCounterFeature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCounterFeature.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCounterFeature/Pods-SimpleCounterFeature.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E354C4F38DCAC9B4D2CC7E /* Pods_SimpleCounterFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCounterFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C225C59C225BC8340093F8AE /* SimpleCounterFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleCounterFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C225C59F225BC8340093F8AE /* SimpleCounterFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCounterFeature.h; sourceTree = "<group>"; };
 		C225C5A0225BC8340093F8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,18 +35,30 @@
 			files = (
 				C2B73726225BCC110006D1B8 /* Foundation.framework in Frameworks */,
 				C2B73724225BCBC00006D1B8 /* UIKit.framework in Frameworks */,
+				986A176476A32A67BFF4895C /* Pods_SimpleCounterFeature.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916E1DB4E0E1A13A13271F40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0D540509D1D5CB4143CF3 /* Pods-SimpleCounterFeature.debug.xcconfig */,
+				66724CDF3A85BA485D5E4E41 /* Pods-SimpleCounterFeature.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		C225C592225BC8340093F8AE = {
 			isa = PBXGroup;
 			children = (
 				C225C59E225BC8340093F8AE /* SimpleCounterFeature */,
 				C225C59D225BC8340093F8AE /* Products */,
 				C2B73722225BCBBF0006D1B8 /* Frameworks */,
+				916E1DB4E0E1A13A13271F40 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +86,7 @@
 			children = (
 				C2B73725225BCC110006D1B8 /* Foundation.framework */,
 				C2B73723225BCBC00006D1B8 /* UIKit.framework */,
+				C1E354C4F38DCAC9B4D2CC7E /* Pods_SimpleCounterFeature.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C225C5A4225BC8340093F8AE /* Build configuration list for PBXNativeTarget "SimpleCounterFeature" */;
 			buildPhases = (
+				5416B4E72A6CD1E6101EE9D4 /* [CP] Check Pods Manifest.lock */,
 				C225C597225BC8340093F8AE /* Headers */,
 				C225C598225BC8340093F8AE /* Sources */,
 				C225C599225BC8340093F8AE /* Frameworks */,
@@ -148,6 +166,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5416B4E72A6CD1E6101EE9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCounterFeature-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C225C598225BC8340093F8AE /* Sources */ = {
@@ -285,6 +328,7 @@
 		};
 		C225C5A5225BC8340093F8AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA0D540509D1D5CB4143CF3 /* Pods-SimpleCounterFeature.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -312,6 +356,7 @@
 		};
 		C225C5A6225BC8340093F8AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66724CDF3A85BA485D5E4E41 /* Pods-SimpleCounterFeature.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

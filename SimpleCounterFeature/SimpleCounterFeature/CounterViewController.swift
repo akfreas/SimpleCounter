@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import UICircularProgressRing
 
 public class CounterViewController: UIViewController {
     
