@@ -7,8 +7,9 @@
 //
 
 import UIKit
+#if USE_FRAMEWORKS
 import SimpleCounterFeature
-
+#endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -372,6 +372,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D USE_FRAMEWORKS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sashimiblade.SimpleCounterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -391,6 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D USE_FRAMEWORKS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sashimiblade.SimpleCounterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

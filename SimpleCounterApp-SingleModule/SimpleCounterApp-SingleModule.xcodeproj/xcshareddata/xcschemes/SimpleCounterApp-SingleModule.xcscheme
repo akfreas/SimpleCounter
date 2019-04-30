@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C225C57C225BC2EC0093F8AE"
-               BuildableName = "SimpleCounterApp.app"
-               BlueprintName = "SimpleCounterApp"
-               ReferencedContainer = "container:SimpleCounterApp.xcodeproj">
+               BlueprintIdentifier = "C2131AA32271B5A7000055DC"
+               BuildableName = "SimpleCounterApp-SingleModule.app"
+               BlueprintName = "SimpleCounterApp-SingleModule"
+               ReferencedContainer = "container:SimpleCounterApp-SingleModule.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C225C57C225BC2EC0093F8AE"
-            BuildableName = "SimpleCounterApp.app"
-            BlueprintName = "SimpleCounterApp"
-            ReferencedContainer = "container:SimpleCounterApp.xcodeproj">
+            BlueprintIdentifier = "C2131AA32271B5A7000055DC"
+            BuildableName = "SimpleCounterApp-SingleModule.app"
+            BlueprintName = "SimpleCounterApp-SingleModule"
+            ReferencedContainer = "container:SimpleCounterApp-SingleModule.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C225C57C225BC2EC0093F8AE"
-            BuildableName = "SimpleCounterApp.app"
-            BlueprintName = "SimpleCounterApp"
-            ReferencedContainer = "container:SimpleCounterApp.xcodeproj">
+            BlueprintIdentifier = "C2131AA32271B5A7000055DC"
+            BuildableName = "SimpleCounterApp-SingleModule.app"
+            BlueprintName = "SimpleCounterApp-SingleModule"
+            ReferencedContainer = "container:SimpleCounterApp-SingleModule.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -81,10 +81,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C225C57C225BC2EC0093F8AE"
-            BuildableName = "SimpleCounterApp.app"
-            BlueprintName = "SimpleCounterApp"
-            ReferencedContainer = "container:SimpleCounterApp.xcodeproj">
+            BlueprintIdentifier = "C2131AA32271B5A7000055DC"
+            BuildableName = "SimpleCounterApp-SingleModule.app"
+            BlueprintName = "SimpleCounterApp-SingleModule"
+            ReferencedContainer = "container:SimpleCounterApp-SingleModule.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

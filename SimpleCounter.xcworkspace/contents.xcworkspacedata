@@ -8,6 +8,9 @@
       location = "group:SimpleCounterApp/SimpleCounterApp.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SimpleCounterApp-SingleModule/SimpleCounterApp-SingleModule.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
